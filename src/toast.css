@@ -1,0 +1,42 @@
+@keyframes trackProgress {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+@keyframes trackProgress-close {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(150%);
+  }
+}
+
+.codestates-toast-main {
+  background-color: white; 
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  animation: trackProgress 0.4s linear 3s forwards;
+}
+
+.codestates-toast-main.codestates-toast-main-close {
+  animation: trackProgress-close 0.4s linear forwards;
+}
+
+.codestates-toast-main > h4 {
+  flex-grow: 1;
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
+.codestates-toast-main > button {
+  background-color: whitesmoke; 
+  border: 0;
+  border-radius: 0.25rem;
+}

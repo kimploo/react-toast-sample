@@ -1,0 +1,6 @@
+.codestates-toast-container {
+  min-width: 300px;
+  position: fixed; 
+  bottom: 1rem;
+  right: 1rem;
+}

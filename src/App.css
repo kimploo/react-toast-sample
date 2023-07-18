@@ -1,0 +1,8 @@
+.notify {
+  border: 0; 
+  background-color: #FFC0A0;
+  color: white;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
